@@ -1,0 +1,526 @@
+*{
+
+    box-sizing: border-box;
+    
+}
+body{
+
+    margin:0;
+    color:white;
+}
+h1{
+
+      text-align:center;
+       padding:10px;
+      
+
+}
+
+a{
+    text-decoration: none;
+      font-size: 18px;
+    color: black;
+    color: white;
+
+}
+
+.nav-head h1{
+     margin: 0;
+     padding-top: 10px;
+}
+.nav-bar{
+    background-color: cyan;
+    padding:1% 7%; 
+    text-align: center;
+    
+}
+
+
+.nav-menu{
+    display:flex;
+    flex-direction: column;
+  
+}
+.nav-menu a{
+                margin:7px 0px;
+                padding:10px;
+                background-color: navy;
+                border-radius: 10px;
+
+
+}
+.nav-bar::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.profile{
+
+        padding:130px 20px;
+        text-align: center;
+        background-color: teal;
+        position: relative;
+        color: white;
+
+      
+}
+ .profile .top-pic{
+
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    transition: ease-out transform 2s;
+     margin: 40px;
+    
+   
+}
+.profile .top-pic:hover{
+                        
+                        transform:rotate(360deg);
+
+}
+.profile-doc p{
+
+    padding: 0px auto 30px auto;
+    text-align: center;
+    font-size: 18px;
+  
+    font-family: 'Lobster Two', cursive;
+
+}
+.profile h1{
+     padding-top:20px;
+    font-family: 'Concert One', cursive;
+}
+.profile .bottom-pic{
+
+    position: absolute;
+    left:60px;
+    bottom:10px;
+    transition: transform 2s;
+    margin: 40px;
+    
+    
+    
+}
+
+.profile .bottom-pic:hover{
+
+                transform: rotate(360deg);
+
+                            
+}
+.profile::after{
+    display:table;
+    clear:both;
+}
+
+
+.about-me{
+            
+             padding: 1% 7%;
+             text-align:center;
+             color: white;
+                         
+}
+.container{
+    background-color:brown;
+    
+}
+
+h2{
+   
+    
+    text-align:center;
+    font-family: 'Rakkas', cursive;
+    padding-top: 30px;
+    
+}
+hr{
+    border: dotted 0.5px white;
+    border-bottom: none;
+    width:100%;  
+}
+
+.hr-role{
+
+     padding-bottom: 30px;
+}
+
+ .image img{
+
+    height: 200px;
+    width:200px;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+ .about-me .p{
+     text-align: justify;
+ }
+.about-me p{
+    
+    font-family: 'Maitree', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.about-me  a{
+     
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    
+}
+.about-me  button{
+
+    color: burlywood;
+    border:none;
+    background-color: cadetblue;
+    padding:10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+    
+
+
+
+    
+}
+
+
+[class*="col-"]{
+
+    float:left;
+    padding:10px;
+    
+    
+}
+[class*="col-"]{
+
+    width: 100%;
+    
+    
+    
+}
+
+
+.container ::after{
+
+    content:'';
+    clear:both;
+    display: table;
+  
+}
+
+.profession{
+    padding:1% 0%;
+           
+         
+}
+
+.profession .card{
+    padding:20px;
+    height:600px;
+    transition:0.3s;
+    background-image: radial-gradient(#02599E,rgb(7, 55, 87));
+    border-radius:5px;
+    text-align: center;
+    
+}
+.work-ex{
+    background-color: darkgray;
+    
+}
+ .work-ex img{
+  
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid rgb(7, 55, 87) ;
+    text-align: center;
+    padding:10px;
+    
+}
+.edu-ex{
+    background-color: darkgray;
+}
+.skill{
+    background-color: darkgray;
+}
+
+.edu-ex img{
+  
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid rgb(7, 55, 87) ;
+    text-align: center;
+    padding:10px;
+    
+}
+.skill img{
+  
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border:5px solid rgb(7, 55, 87) ;
+    text-align: center;
+    padding:10px;
+    
+}
+
+.card h3{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(7, 55, 87);
+    padding:5px;
+      
+}
+
+.work-ex li{
+
+    text-align: left;
+    font-size: 15px;
+    padding:20px;
+}
+
+
+.edu-ex li{
+
+    text-align: left;
+    font-size: 15px;
+    padding:20px;
+}
+.card:hover{
+
+    box-shadow: 10px 20px 20px black;
+}
+.hr1{
+    width:100%;
+    float:left;
+}
+.card-disc {
+
+
+ 
+    background-color: rgb(7, 55, 87);
+    height:50px;
+    margin-top:50px;
+    text-align: center;
+    padding-top:20px;
+   
+   
+
+}
+.skill .card-disc {
+
+
+ 
+    background-color: rgb(7, 55, 87);
+    height:50px;
+    margin-top:40px;
+    text-align: center;
+    padding-top:20px;
+   
+   
+
+}
+.progress-bar{
+
+    padding:20px;
+}
+
+.progress-bar li{
+
+    list-style-type: none;
+    margin:35px;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    
+    
+    
+}
+.progress-bar li::before{
+    content: '';
+    background-color: rgb(230, 219, 219);
+    width:100%;
+    height:50%;
+    position:absolute;
+    top:25px;
+    left:0;
+    border-radius: 10px;
+
+
+    
+
+}
+.progress-bar li::after{
+    content: '';
+    background-color: rgb(230, 219, 219);
+    width:0;
+    height:50%;
+    position:absolute;
+    top:25px;
+    left:0;
+    border-radius: 10px;
+
+
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: none;
+    animation-timing-function: ease-in-out;
+    animation-direction: initial;
+    animation-fill-mode: forwards;
+    
+   
+}
+
+.progress-bar li.bar1::after{
+    animation-name: bar1;
+                           
+}
+@keyframes bar1{
+    to{
+        width:90%;
+        background-color: rgb(7, 55, 87);
+        
+    }
+}
+.progress-bar li.bar2::after{
+    animation-name: bar2;
+                           
+}
+@keyframes bar2{
+    to{
+        width:70%;
+        background-color: rgb(7, 55, 87);
+    }
+}
+
+.progress-bar li.bar3::after{
+    animation-name: bar3;
+                           
+}
+@keyframes bar3{
+    to{
+        width:55%;
+        background-color: rgb(7, 55, 87);
+    }
+}
+.progress-bar li.bar4::after{
+    animation-name: bar4;
+                           
+}
+@keyframes bar4{
+    to{
+        width:40%;
+        background-color: rgb(7, 55, 87);
+    }
+}
+
+
+
+.profession::after{
+              content: '';
+               clear:both;
+              display:table;
+}
+
+
+.contact{
+
+    padding:1% 7%;
+    color:white;
+    background-color: blueviolet;
+    text-align: center;
+}
+.bang{
+
+    text-align: center;
+
+    padding:20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.icon button{
+    margin:30px;
+    text-align: center;
+    cursor:pointer;
+    
+}
+
+.icon .b1 {
+    color: rgb(29, 72, 114);
+    border:none;
+
+     padding:10px;
+     width:40px;
+}
+.icon .b2 {
+    color: rgb(247, 7, 7);
+    border:none;
+
+    padding:10px;
+    width:40px;
+}
+.icon .b3 {
+    color: rgb(119, 18, 48);
+
+    border:none;
+
+    padding:10px;
+    width:40px;
+
+
+}
+.icon button:hover{
+    box-shadow: 0px 5px  10px  black;
+    transform:translate(-50%,-50%);
+    
+
+}
+
+
+
+
+.contact::after{
+    clear:both;
+    content:'';
+    display:table;
+
+}
+
+
+
+.footer{
+    background-color: black;
+    padding:20px;
+    text-align: center;
+    
+    
+    
+}
+.footer a{
+        display:block;
+        margin:10px 0;
+        
+        font-size: 1rem;
+
+}
+.footer-disc{
+
+              padding:10px;
+
+
+}
+.footer::after{
+               content:'';
+               clear:both;
+               display:table;
+
+}
